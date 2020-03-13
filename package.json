@@ -1,0 +1,25 @@
+{
+  "name": "slswrapper",
+  "version": "1.0.0",
+  "description": "SLS wrapper for deploying listenerlambda, topicsubscriberLambda , lambdaTriggeredByS3Event, SNS Topics and S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linaf/slsWrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Linaf/slsWrapper/issues"
+  },
+  "homepage": "https://github.com/Linaf/slsWrapper#readme",
+
+  "dependencies": {
+    "serverless": "^1.66.0",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^3.33.0"
+  }
+}
